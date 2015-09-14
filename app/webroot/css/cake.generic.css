@@ -24,6 +24,8 @@
 /** General Style Info **/
 body {
 	background: #003d4c;
+	background-image: url('http://wallpaperswa.com/thumbnails/detail/20140420/abstract%20red%20white_wallpaperswa.com_29.jpg');
+	background-size: 110%;
 	color: #fff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:90%;
@@ -37,6 +39,7 @@ a {
 a:hover {
 	color: #367889;
 	text-decoration:none;
+	background-color: #A3FFD1;
 }
 a img {
 	border:none;
@@ -46,12 +49,12 @@ h1, h2, h3, h4 {
 	margin-bottom:0.5em;
 }
 h1 {
-	background:#fff;
+	
 	color: #003d4c;
-	font-size: 100%;
+	font-size: 110%;
 }
 h2 {
-	background:#fff;
+	
 	color: #e32;
 	font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;
 	font-size: 190%;
@@ -59,7 +62,7 @@ h2 {
 h3 {
 	color: #2c6877;
 	font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;
-	font-size: 165%;
+	font-size: 145%;
 }
 h4 {
 	color: #993;
@@ -75,6 +78,7 @@ p {
 /** Layout **/
 #container {
 	text-align: left;
+	height:150px;
 }
 
 #header{
@@ -82,13 +86,12 @@ p {
 }
 #header h1 {
 	line-height:20px;
-	background: #003d4c url('../img/cake.icon.png') no-repeat left;
-	color: #fff;
 	padding: 0px 30px;
+	font-weight: bold;
 }
 #header h1 a {
 	color: #fff;
-	background: #003d4c;
+	
 	font-weight: normal;
 	text-decoration: none;
 }
@@ -98,7 +101,6 @@ p {
 	text-decoration: underline;
 }
 #content{
-	background: #fff;
 	clear: both;
 	color: #333;
 	padding: 10px 20px 40px 20px;
@@ -107,6 +109,11 @@ p {
 #footer {
 	clear: both;
 	padding: 6px 10px;
+}
+
+#footer p{
+font-weight:italic;
+font-size:10px;
 }
 #header a, #footer a {
 	color: #fff;
@@ -167,7 +174,7 @@ table tr td {
 	border-bottom:1px solid #ddd;
 }
 table tr:nth-child(even) {
-	background: #f9f9f9;
+	
 }
 td.actions {
 	text-align: center;
@@ -311,6 +318,7 @@ form div.submit {
 }
 label {
 	display: block;
+	font-weight:700;
 	font-size: 110%;
 	margin-bottom:3px;
 }
